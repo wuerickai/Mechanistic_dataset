@@ -1,0 +1,21 @@
+name: mechdata2
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - networkx
+  - tqdm
+  - joblib
+  - matplotlib
+  - numpy
+  - rdkit=2021.03.1
+  - pandas
+  - scipy
+  - psutil
+  - pyarrow
+  - pytorch
+  - pip
+  - pip:
+      - drfp
+#  - jsonlines #It creates problem.

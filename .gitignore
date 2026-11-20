@@ -1,0 +1,86 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# data files #
+######################
+data/
+vocab_expts/
+dataset_balancing/
+finalized_data/
+outputs/
+results/
+scripts/oxidation_states
+scripts/processing_pistachio
+test_runs/
+untemplated/
+logs/
+logs2/
+old/
+ver2/
+results2/
+flower_ver2/
+*.csv
+*.json
+*.jsonl
+*.xml
+
+# ipynb files and checkpoints#
+######################
+# *.ipynb
+*.pyc
+**/.ipynb_checkpoints
+__pycache__/
+scratch/
+logs/
+
+processing/filter_unrecognized.py
+processing/prepare_test.py
+data_prep/
+diversity/
+processing/
+tmp/
+
+
+kekulization.py
+run.py
+labeling.ipynb
+check_sequences.ipynb
+example.ipynb
+deduplicate.sh
+scripts/classify_untemplated.ipynb
+*.sh
